@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-05-28T14:47:16 IST" name="Default suite" finished-at="2024-05-28T14:50:15 IST" duration-ms="179002">
+    <groups>
+      <group name="functional">
+        <method signature="Main.testUserInfo()[pri:1, instance:testCases.Main@55dfebeb]" name="testUserInfo" class="testCases.Main"/>
+        <method signature="Main.testEthicsAndComplianceVisibility()[pri:3, instance:testCases.Main@55dfebeb]" name="testEthicsAndComplianceVisibility" class="testCases.Main"/>
+        <method signature="Main.testnavigation()[pri:4, instance:testCases.Main@55dfebeb]" name="testnavigation" class="testCases.Main"/>
+        <method signature="Main.testResourcesOrLinkValidity()[pri:5, instance:testCases.Main@55dfebeb]" name="testResourcesOrLinkValidity" class="testCases.Main"/>
+        <method signature="Main.testprintInformation()[pri:6, instance:testCases.Main@55dfebeb]" name="testprintInformation" class="testCases.Main"/>
+        <method signature="Main.testPageInformationValidity()[pri:7, instance:testCases.Main@55dfebeb]" name="testPageInformationValidity" class="testCases.Main"/>
+        <method signature="Main.testPagetInformation()[pri:8, instance:testCases.Main@55dfebeb]" name="testPagetInformation" class="testCases.Main"/>
+      </group> <!-- functional -->
+      <group name="sanity">
+        <method signature="Main.testUserInfo()[pri:1, instance:testCases.Main@55dfebeb]" name="testUserInfo" class="testCases.Main"/>
+        <method signature="Main.testHeaderList()[pri:2, instance:testCases.Main@55dfebeb]" name="testHeaderList" class="testCases.Main"/>
+      </group> <!-- sanity -->
+      <group name="master">
+        <method signature="Main.testUserInfo()[pri:1, instance:testCases.Main@55dfebeb]" name="testUserInfo" class="testCases.Main"/>
+        <method signature="Main.testEthicsAndComplianceVisibility()[pri:3, instance:testCases.Main@55dfebeb]" name="testEthicsAndComplianceVisibility" class="testCases.Main"/>
+        <method signature="Main.testnavigation()[pri:4, instance:testCases.Main@55dfebeb]" name="testnavigation" class="testCases.Main"/>
+        <method signature="Main.testResourcesOrLinkValidity()[pri:5, instance:testCases.Main@55dfebeb]" name="testResourcesOrLinkValidity" class="testCases.Main"/>
+        <method signature="Main.testprintInformation()[pri:6, instance:testCases.Main@55dfebeb]" name="testprintInformation" class="testCases.Main"/>
+        <method signature="Main.testPageInformationValidity()[pri:7, instance:testCases.Main@55dfebeb]" name="testPageInformationValidity" class="testCases.Main"/>
+        <method signature="Main.testPagetInformation()[pri:8, instance:testCases.Main@55dfebeb]" name="testPagetInformation" class="testCases.Main"/>
+        <method signature="Main.testHeaderList()[pri:2, instance:testCases.Main@55dfebeb]" name="testHeaderList" class="testCases.Main"/>
+      </group> <!-- master -->
+    </groups>
+    <test started-at="2024-05-28T14:47:16 IST" name="Default test" finished-at="2024-05-28T14:50:15 IST" duration-ms="179002">
+      <class name="testCases.Main">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:testCases.Main@55dfebeb]" started-at="2024-05-28T14:47:16 IST" name="setUp" finished-at="2024-05-28T14:47:26 IST" duration-ms="10674" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testUserInfo()[pri:1, instance:testCases.Main@55dfebeb]" started-at="2024-05-28T14:47:26 IST" name="testUserInfo" finished-at="2024-05-28T14:47:49 IST" duration-ms="22322" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUserInfo -->
+        <test-method signature="testHeaderList()[pri:2, instance:testCases.Main@55dfebeb]" started-at="2024-05-28T14:47:49 IST" name="testHeaderList" finished-at="2024-05-28T14:49:51 IST" duration-ms="122003" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHeaderList -->
+        <test-method signature="testEthicsAndComplianceVisibility()[pri:3, instance:testCases.Main@55dfebeb]" started-at="2024-05-28T14:49:51 IST" name="testEthicsAndComplianceVisibility" finished-at="2024-05-28T14:49:53 IST" duration-ms="2399" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEthicsAndComplianceVisibility -->
+        <test-method signature="testnavigation()[pri:4, instance:testCases.Main@55dfebeb]" started-at="2024-05-28T14:49:53 IST" name="testnavigation" finished-at="2024-05-28T14:49:54 IST" depends-on-methods="testCases.Main.testEthicsAndComplianceVisibility" duration-ms="1208" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testnavigation -->
+        <test-method signature="testResourcesOrLinkValidity()[pri:5, instance:testCases.Main@55dfebeb]" started-at="2024-05-28T14:49:54 IST" name="testResourcesOrLinkValidity" finished-at="2024-05-28T14:50:00 IST" depends-on-methods="testCases.Main.testnavigation" duration-ms="5874" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testResourcesOrLinkValidity -->
+        <test-method signature="testprintInformation()[pri:6, instance:testCases.Main@55dfebeb]" started-at="2024-05-28T14:50:00 IST" name="testprintInformation" finished-at="2024-05-28T14:50:01 IST" depends-on-methods="testCases.Main.testnavigation, testCases.Main.testResourcesOrLinkValidity" duration-ms="437" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testprintInformation -->
+        <test-method signature="testPageInformationValidity()[pri:7, instance:testCases.Main@55dfebeb]" started-at="2024-05-28T14:50:01 IST" name="testPageInformationValidity" finished-at="2024-05-28T14:50:01 IST" depends-on-methods="testCases.Main.testnavigation" duration-ms="65" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPageInformationValidity -->
+        <test-method signature="testPagetInformation()[pri:8, instance:testCases.Main@55dfebeb]" started-at="2024-05-28T14:50:01 IST" name="testPagetInformation" finished-at="2024-05-28T14:50:01 IST" depends-on-methods="testCases.Main.testPageInformationValidity, testCases.Main.testnavigation" duration-ms="154" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPagetInformation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.Main@55dfebeb]" started-at="2024-05-28T14:50:01 IST" name="tearDown" finished-at="2024-05-28T14:50:15 IST" duration-ms="13726" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.Main -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
