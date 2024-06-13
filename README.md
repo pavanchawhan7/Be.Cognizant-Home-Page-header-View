@@ -21,8 +21,7 @@ Key Automation Scope:
 Output: [Chrome and Edge]
 ==================
 
-User name: Pavan, Sapavath (Contractor)<br>
-User email: 2332963@cognizant.com<br>
+User name: Pavan, Sapavath<br><br>
 
 be.cognizant<br>
 
